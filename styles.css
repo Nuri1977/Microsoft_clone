@@ -26,3 +26,38 @@ ul {
   max-width: 1100px;
   margin: auto;
 }
+
+ /* NAV */
+ .main-nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 60px;
+   padding: 20px 0;
+   font-size: 13px;
+ }
+
+ .main-nav .logo {
+   width: 110px;
+ }
+
+ .main-nav ul li {
+   padding: 0 10px;
+ }
+
+ .main-nav ul li a {
+   padding-bottom: 2px;
+ }
+
+ .main-nav ul li a:hover {
+   border-bottom: 2px solid #262626;
+ }
+
+ .main-nav ul {
+   display: flex;
+ }
+
+ .main-nav ul.main-menu {
+   flex: 1;
+   margin-left: 20px;
+ }

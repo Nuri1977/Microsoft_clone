@@ -88,7 +88,7 @@ ul {
   text-align: center;
   justify-content: flex-end;
   padding-bottom: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
  }
 
  .showcase h2, .showcase p {
@@ -121,4 +121,20 @@ ul {
 
 .home-cards a:hover i {
   margin-left: 10px;
+}
+
+/* XBOX */
+.xbox {
+  height: 350px;
+  width: 100%;
+  background: url('/images/xbox.png') no-repeat center center/cover;
+}
+
+.xbox .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+}
+
+.xbox p {
+  margin: 10px 0 20px;
 }

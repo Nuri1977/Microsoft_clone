@@ -40,6 +40,10 @@ ul {
  .main-nav .logo {
    width: 110px;
  }
+ 
+ .logo:hover {
+    transform: scale(0.8);
+ }
 
  .main-nav ul li {
    padding: 0 10px;
@@ -74,7 +78,8 @@ ul {
  }
 
  .btn:hover {
-   opacity: 0.9;
+   background-color: #0067b8;
+   color: brown;
  }
 
  .dark {
@@ -104,6 +109,10 @@ ul {
    margin-bottom: 10px;
  }
 
+ .showcase h2:hover {
+  transform: translate(-10px,-20px);
+ }
+
  /* Home Cards */
 .home-cards {
   display: grid;
@@ -129,7 +138,7 @@ ul {
 }
 
 .home-cards a:hover i {
-  margin-left: 10px;
+  transform: rotate(180deg);
 }
 
 /* XBOX */

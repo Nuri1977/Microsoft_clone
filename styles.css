@@ -109,6 +109,10 @@ ul {
    margin-bottom: 10px;
  }
 
+ .showcase h2:hover {
+  transform: translate(-10px,-20px);
+ }
+
  /* Home Cards */
 .home-cards {
   display: grid;

@@ -138,7 +138,7 @@ ul {
 }
 
 .home-cards a:hover i {
-  margin-left: 10px;
+  transform: rotate(180deg);
 }
 
 /* XBOX */
